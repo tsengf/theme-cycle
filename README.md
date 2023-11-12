@@ -1,3 +1,6 @@
+Description
+Use the F10 and shift-F10 key to dynamically review the available themes. This is useful if you can open a buffer of interest and see how each color theme impacts the colors in the buffer.
+
 Installation
 
 Copy theme-cycle.el to ~/.emacs.d.
