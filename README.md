@@ -7,6 +7,7 @@ Copy theme-cycle.el to ~/.emacs.d.
 
 Add the following to your Emacs configuration
 
+```elisp
 (add-to-list 'load-path (expand-file-name "~/.emacs.d)
 
 (require 'theme-cycle)
@@ -16,6 +17,7 @@ Add the following to your Emacs configuration
 (use-package ef-themes)
 (use-package modus-themes)
 (use-package solarized-themes)
+```
 
 To Use
 
