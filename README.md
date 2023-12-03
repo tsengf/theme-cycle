@@ -22,3 +22,14 @@ Add the following to your Emacs configuration
 To Use
 
 Use F10 to cycle forward through the themes. Use shift-F10 to cycle backward through the themes.
+
+By default, the variable theme-list picks up all of the available themes in your setup. If you set it, the library will cycle through the set list.
+
+```elisp
+(setq theme-list (list
+                      'doom-dracula
+                      'doom-material-dark
+                      'doom-palenight
+                      'ef-maris-dark
+                      'ef-night))
+```
